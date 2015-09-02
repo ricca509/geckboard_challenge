@@ -19,19 +19,19 @@ class RepoItem extends React.Component {
                     to="details"
                     className="repoItem-link"
                     params={{ name: this.props.repo.name, username: this.props.repo.owner.login }}>
-                    { this.props.repo.name }                    
+                    { this.props.repo.name }
                 </Link>
 
                 <div className="repoItem-counts">
                     <ul>
                         <li>
-                            { this.props.repo.watchers_count }
+                            w { this.props.repo.watchers_count }
                         </li>
                         <li>
-                            { this.props.repo.stargazers_count }
+                            s { this.props.repo.stargazers_count }
                         </li>
                         <li>
-                            { this.props.repo.forks_count }
+                            f { this.props.repo.forks_count }
                         </li>
                     </ul>
 

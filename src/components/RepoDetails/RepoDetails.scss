@@ -1,0 +1,59 @@
+.repoDetails {
+    color: #c9c9c3;
+    font-size: 12px;
+}
+
+.repoDetails-counts {
+    float: right;
+
+    ul {
+        list-style-type: none;
+        margin-top: 0;
+
+        li {
+            display: inline;
+            margin: 0 15px;
+            font-size: 12px;
+        }
+    }
+}
+
+.repoDetails-title {
+    font-size: 12px;
+    float: left;
+
+    .repoDetails-name {
+        font-weight: bold;
+        color: #87a655;
+    }
+
+    .repoDetails-updated {
+        font-size: 11px;
+    }
+}
+
+.repoDetails-link {
+    color: #87a655;
+    font-size: 11px;
+}
+
+.repoDetails-percentages {
+    list-style-type: none;
+    margin-top: 0;
+    text-align: center;
+
+    li {
+        display: block;
+        padding: 10px 0;
+    }
+
+    .repoDetails-perc-perc {
+        font-size: 20px;
+    }
+}
+
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+}

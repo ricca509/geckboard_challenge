@@ -3,7 +3,7 @@ import repoServices from '../services/repoServices';
 
 class ReposActions {
     getRepos (username) {
-        console.log('fetching:', username);
+        console.info('fetching:', username);
         this.dispatch();
 
         return repoServices.getRepos(username)

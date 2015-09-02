@@ -27,9 +27,9 @@ class RepoDetails extends React.Component {
             }
         });
 
-        return percentages.map((percentage) => {
+        return percentages.map((percentage, key) => {
             return (
-                <li className="repoDetails-perc group">
+                <li key={key} className="repoDetails-perc group">
                     <b className="repoDetails-perc-lang">{percentage.lang}</b>
                     <br />
                     <span className="repoDetails-perc-perc">{percentage.perc}%</span>
@@ -39,8 +39,6 @@ class RepoDetails extends React.Component {
     }
 
     render () {
-        console.log(this.props.repo);
-
         return (
             <div className="repoDetails">
                 <div className="group">

@@ -1,0 +1,40 @@
+.repoItem {
+    margin: 15px 0;
+
+    a {
+        color: #5b5b46;
+        font-weight: bold;
+        text-decoration: none;
+
+        &:hover {
+            color: #87a655
+        }
+    }
+
+}
+
+.repoItem-counts {
+    float: right;
+
+    ul {
+        list-style-type: none;
+        margin-top: 0;
+
+        li {
+            display: inline;
+            margin: 0 15px;
+            font-size: 12px;
+            color: #c9c9c3
+        }
+    }
+}
+
+.repoItem-link {
+    float: left;
+}
+
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+}

@@ -24,8 +24,10 @@ class ReposStore {
     }
 
     handleUpdateRepos (repos) {
+        let sortedRepos = _.sortBy(repos, 'stargazers_count').reverse();
+
         this.setState({
-            repos: repos
+            repos: sortedRepos
         });
     }
 

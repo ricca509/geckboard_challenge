@@ -39,6 +39,8 @@ $ webpack-dev-server
 ```
 then open [http://localhost:8080/webpack-dev-server/](http://localhost:8080/repos/<github_username>)
 
+Enable CORS on Chrome.
+
 
 Hey Geckoboard geeks,
 thanks for giving me the opportunity to do the challenge.

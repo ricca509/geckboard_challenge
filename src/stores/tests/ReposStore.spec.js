@@ -4,8 +4,8 @@ import ReposActions from '../../actions/ReposActions';
 
 describe('The ReposStore', function () {
     it('should listen for GET_REPOS action', () => {
-        var data = null;
-        var action = ReposActions.GET_REPOS;
+        let data = null;
+        let action = ReposActions.GET_REPOS;
 
         alt.dispatcher.dispatch({action, data});
 
@@ -13,8 +13,8 @@ describe('The ReposStore', function () {
     });
 
     it('should listen for UPDATE_REPOS action', () => {
-        var data = ['a', 'b'];
-        var action = ReposActions.UPDATE_REPOS;
+        let data = ['a', 'b'];
+        let action = ReposActions.UPDATE_REPOS;
 
         alt.dispatcher.dispatch({action, data});
 

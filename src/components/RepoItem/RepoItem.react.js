@@ -10,9 +10,9 @@ class RepoItem extends React.Component {
         this.state = {};
     }
 
-    render () {        
+    render () {
         return (
-            <div className="repoItem group">
+            <div className="repoItem group">                
                 <Link
                     to="details"
                     className="repoItem-link"

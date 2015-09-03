@@ -1,6 +1,6 @@
-var alt = require('../alt');
+import alt from '../alt';
 import _ from 'underscore';
-var ReposActions = require('../actions/ReposActions');
+import ReposActions from '../actions/ReposActions';
 
 class ReposStore {
     constructor() {
@@ -37,7 +37,7 @@ class ReposStore {
 
     handleUpdateRepo (options) {
         let repo = _.extend(options.repo, { languages: options.languages });
-        
+
         this.setState({
             repo: repo
         });

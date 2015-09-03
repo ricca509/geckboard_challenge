@@ -2,7 +2,7 @@ import './App.scss';
 import React from 'react';
 import Router from 'react-router';
 
-var RouteHandler = Router.RouteHandler;
+let RouteHandler = Router.RouteHandler;
 
 class App extends React.Component {
     constructor (props) {
